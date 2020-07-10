@@ -1,4 +1,4 @@
-# Advancedform\_XH
+# Advancedform\_XH  -- with update for php 7.4
 
 Advancedform\_XH facilitates creating your own mail forms for
 integration to CMSimple\_XH. It's possible use ranges from customized
