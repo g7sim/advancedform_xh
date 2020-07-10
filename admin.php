@@ -109,7 +109,7 @@ function Advancedform_systemCheck()
     }
     $o .= tag('br') . (strtoupper($tx['meta']['codepage']) == 'UTF-8' ? $ok : $warn)
         . '&nbsp;&nbsp;' . $ptx['syscheck_encoding'] . tag('br') . PHP_EOL;
-    $o .= (!get_magic_quotes_runtime() ? $ok : $warn)
+    $o .= (!FALSE ? $ok : $warn)
         . '&nbsp;&nbsp;' . $ptx['syscheck_magic_quotes'] . tag('br') . PHP_EOL;
     $filename = $pth['folder']['plugins'] . 'jquery/jquery.inc.php';
     $o .= (file_exists($filename) ? $ok : $fail)
